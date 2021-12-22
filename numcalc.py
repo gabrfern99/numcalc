@@ -1,6 +1,7 @@
 import numpy as np
 import numcalc_methods
 
+
 def get_matrix(nmx):
 
     init_augmx = np.zeros((nmx, nmx + 1))
@@ -12,6 +13,7 @@ def get_matrix(nmx):
             init_augmx[i][j] = float(input(f"a[{str(i)}][{str(j)}] = "))
 
     return init_augmx, init_solvec
+
 
 if __name__ == "__main__":
     try:
